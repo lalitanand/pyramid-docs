@@ -11,21 +11,6 @@ documentation additions.
 Backwards Incompatibilities
 ---------------------------
 
-- IPython and BPython support have been removed from pshell in the core. To
-  continue using them on Pyramid 1.6+, you must install the binding packages
-  explicitly. One way to do this is by adding ``pyramid_ipython`` (or
-  ``pyramid_bpython``) to the ``install_requires`` section of your package's
-  ``setup.py`` file, then re-running ``setup.py develop``::
-
-    setup(
-        #...
-        install_requires=[
-            'pyramid_ipython',         # new dependency
-            'pyramid',
-            #...
-        ],
-    )
-
 - ``request.response`` will no longer be mutated when using the
   :func:`~pyramid.renderers.render_to_response` API. It is now necessary to
   pass in a ``response=`` argument to
