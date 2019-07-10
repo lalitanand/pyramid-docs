@@ -11,9 +11,10 @@ This article explains the new features in :app:`Pyramid` version 1.10 as compare
 
 Feature Additions
 -----------------
-
-- Add support for Python 3.7. Add testing on Python 3.8 with allowed failures.
-  See https://github.com/Pylons/pyramid/pull/3333
+Feature 1
+ - feature 11
+ - feature 12
+ - feature 13
 
 - Add a context manager :meth:`pyramid.config.Configurator.route_prefix_context` to allow for convenient setting of the ``route_prefix`` for :meth:`pyramid.config.Configurator.include` and :meth:`pyramid.config.Configurator.add_route` calls inside the context.
   See https://github.com/Pylons/pyramid/pull/3279
