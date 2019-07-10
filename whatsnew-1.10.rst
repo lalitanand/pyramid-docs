@@ -10,7 +10,7 @@ This article explains the new features in :app:`Pyramid` version 1.10 as compare
     New features and backports will be reviewed and accepted for the 1.x series of Pyramid but new development will be focused on Pyramid 2.x.
 
 Feature Additions [for 1.10 onwards]
------------------
+------------------------------------
 
 - Add support for Python 3.7. Add testing on Python 3.8 with allowed failures.
   See https://github.com/Pylons/pyramid/pull/3333
